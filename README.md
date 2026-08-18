@@ -61,7 +61,7 @@ OmniEQ is a native Windows desktop equalizer for **[Equalizer APO](https://sourc
 
 ### 🎧 OmniSurround
 - Headphone surround virtualisation with **368 ear/room profiles** and **1 355 headphone-correction curves** — taken over from your existing HeSuVi installation, then HeSuVi can go
-- Everything HeSuVi could set, in one panel: profile, crossfeed (six parameters), eight channel levels, master, LFE-to-centre, output mode, channel matrix, four speaker-group EQs
+- Everything HeSuVi's own window could set, in five tabs: two profile lists with descriptions, source format, stereo/5.1 upmix, **speaker positions with a draggable 3D-style layout**, a per-position 7.1 test, eight channel levels, master, LFE-to-centre, four speaker-group EQs with the correction library one click away, output routing, crossfeed (six parameters)
 - Changes apply **immediately** — no restart, no re-registration
 
 ### 🗂️ Presets & migration
@@ -94,7 +94,7 @@ Full list with details: **[docs/FEATURES.md](docs/FEATURES.md)**
 <td align="center" width="50%"><img src="assets/screenshots/06-graph.png" alt="Frequency response graph" width="440"><br><sub><b>Frequency response</b> — your curve and the effective result</sub></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/screenshots/03-omnisurround.png" alt="OmniSurround panel" height="420"><br><sub><b>OmniSurround</b> — every surround setting, one panel</sub></td>
+<td align="center"><img src="assets/screenshots/03-omnisurround.png" alt="OmniSurround panel" height="420"><br><sub><b>OmniSurround</b> — profiles, positions, upmix and a draggable speaker layout</sub></td>
 <td align="center"><img src="assets/screenshots/04-headphone-corrections.png" alt="Headphone corrections browser" height="420"><br><sub><b>Headphone corrections</b> — 1 355 measured curves, searchable</sub></td>
 </tr>
 <tr>
