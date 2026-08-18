@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Question or discussion
+    url: https://github.com/%%GITHUB_USER%%/OmniEQ/discussions
+    about: Not a bug? Ask here.
+  - name: Get OmniEQ
+    url: %%PATREON_URL%%
+    about: OmniEQ is donationware — supporters get the download.

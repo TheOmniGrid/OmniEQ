@@ -1,0 +1,5 @@
+# Build output and OS noise. Deliverables (installer, zip) are NOT in this repository by design.
+Thumbs.db
+desktop.ini
+*.exe
+*.zip

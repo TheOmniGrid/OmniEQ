@@ -1,0 +1,16 @@
+name: Feature request
+description: Something OmniEQ should do, or do differently.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: The situation, not the solution. "I switch between headphones and speakers ten times a day and…" is more useful than "add a button".
+    validations: { required: true }
+  - type: textarea
+    id: idea
+    attributes: { label: How you imagine it (optional) }
+  - type: input
+    id: elsewhere
+    attributes: { label: Does Peace, HeSuVi or another tool do this?, placeholder: "e.g. Peace has it under …" }
