@@ -5,7 +5,7 @@
 OmniEQ controls **Equalizer APO**. If Equalizer APO is not installed and registered on the output device you use, OmniEQ has nothing to control.
 
 1. Install [Equalizer APO](https://equalizerapo.com/) (1.2.1 or newer). During its setup, tick the output device(s) you want to equalise — headphones, speakers, USB DAC. Reboot when it asks.
-2. Make sure the **Microsoft Visual C++ 2015–2022 Redistributable (x64)** is present. Most machines already have it; if OmniEQ complains about a missing `VCRUNTIME140.dll`, install it from Microsoft.
+2. Nothing else to install: the Microsoft Visual C++ runtime ships next to `omnieq.exe` in both builds.
 
 ## 2. Install OmniEQ
 

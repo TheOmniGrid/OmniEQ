@@ -42,7 +42,7 @@ Headphone surround virtualisation: multi-channel (or stereo, upmixed) audio is f
 | **Profile library** | 312 ear/room profiles (HRIRs) in two lists — 57 captured virtualisations and 255 research HRTF sets — with 44.1 kHz variants where they exist. **Taken over from an existing HeSuVi installation** — OmniEQ does not ship them. |
 | **The window** | Five tabs, in the app's own look: *Virtualisation*, *Equaliser*, *Connection*, *Additional*, *About* — everything HeSuVi's own window offered. |
 | **On / off** | One switch. Applies immediately. |
-| **Profile selection** | Two lists — *Common* (the 57 captured virtualisations) and *More* (255 research HRTF sets) — with a description beside each entry. Both sample-rate variants are written; when a profile has no 44.1 kHz counterpart the window says so. |
+| **Profile selection** | Three chips — *Common* (the 57 captured virtualisations), *More* (255 research HRTF sets) and *Favourites* — with a search box and a description beside each entry. Both sample-rate variants are written; when a profile has no 44.1 kHz counterpart the window says so. |
 | **Source format & upmix** | Treat the source as what it announces, or force stereo / 5.1. Stereo-to-all-positions spread and 5.1 remap are separate switches (the research profiles ask for the spread to be off). |
 | **Speaker positions** | Three sliders — front (towards centre ↔ sides), sides (front ↔ rear), rear (narrower ↔ wider) — and a **3D-style layout view** of the listener with the eight positions around them: drag a speaker, its pair swings round the head, the slider follows. The routing is a constant-power blend, so a source keeps its loudness while it travels; at 0 the placement is HeSuVi's own. |
 | **7.1 test** | One tone per position, L to SR, on the default output device. |
@@ -86,6 +86,7 @@ Headphone surround virtualisation: multi-channel (or stereo, upmixed) audio is f
 | **Theme** | Follows Windows light/dark automatically. Frameless window with the Omni design language; per-monitor DPI, including dragging between differently scaled monitors. |
 | **Languages** | English, Deutsch, Español, Français, Română — 513 strings each, verified on screen. |
 | **Help** | Bundled manual (PDF) one click from the title bar. |
+| **Save diagnostics…** | Writes one text file with versions, the Equalizer APO path and registration, the selected device, the generated config files and your settings — for a bug report. Nothing is sent anywhere; your account name and profile paths are replaced with placeholders. |
 
 ---
 

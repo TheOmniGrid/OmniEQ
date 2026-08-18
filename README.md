@@ -128,7 +128,7 @@ Neither the installer nor the source code is published on GitHub. This repositor
 |---|---|
 | **Windows** | Windows 11, 64-bit (tested). Windows 10 64-bit should work but is not tested. |
 | **Equalizer APO** | 1.2.1 or newer, installed and registered on the output device you want to equalise. Free and open source: [equalizerapo.com](https://equalizerapo.com/) |
-| **Runtime** | Microsoft Visual C++ 2015–2022 Redistributable (x64) — already present on most machines; free from Microsoft if not |
+| **Runtime** | None to install: the Microsoft Visual C++ runtime ships next to the program |
 | **Disk** | about 45 MB |
 | **Optional** | An existing **HeSuVi** installation, if you want OmniSurround's profile library · An existing **Peace** installation, if you want its presets and the AutoEQ database |
 
