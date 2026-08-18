@@ -40,14 +40,14 @@ Headphone surround virtualisation: multi-channel (or stereo, upmixed) audio is f
 |---|---|
 | **The processing is OmniEQ's own** | OmniEQ generates the complete Equalizer APO processing chain (`omnisurround.txt`) itself. No separate program is involved once the move has run. |
 | **Profile library** | 312 ear/room profiles (HRIRs) in two lists — 57 captured virtualisations and 255 research HRTF sets — with 44.1 kHz variants where they exist. **Taken over from an existing HeSuVi installation** — OmniEQ does not ship them. |
-| **The window** | Five tabs, in the app's own look: *Virtualisation*, *Equaliser*, *Connection*, *Additional*, *About* — everything HeSuVi's own window offered. |
+| **The window** | Five tabs, in the app's own look: *Virtualisation*, *Equalizer*, *Connection*, *Additional*, *About* — everything HeSuVi's own window offered. |
 | **On / off** | One switch. Applies immediately. |
 | **Profile selection** | Three chips — *Common* (the 57 captured virtualisations), *More* (255 research HRTF sets) and *Favourites* — with a search box and a description beside each entry. Both sample-rate variants are written; when a profile has no 44.1 kHz counterpart the window says so. |
 | **Source format & upmix** | Treat the source as what it announces, or force stereo / 5.1. Stereo-to-all-positions spread and 5.1 remap are separate switches (the research profiles ask for the spread to be off). |
 | **Speaker positions** | Three sliders — front (towards centre ↔ sides), sides (front ↔ rear), rear (narrower ↔ wider) — and a **3D-style layout view** of the listener with the eight positions around them: drag a speaker, its pair swings round the head, the slider follows. The routing is a constant-power blend, so a source keeps its loudness while it travels; at 0 the placement is HeSuVi's own. |
 | **7.1 test** | One tone per position, L to SR, on the default output device. |
 | **Levels** | Eight per-channel trims (L R C SUB RL RR SL SR) as a mixer strip, master, crossfeed master, LFE-to-centre. |
-| **Speaker-group equalisers** | Front / sides / centre+LFE / back, each as Equalizer APO text — with the headphone-correction library one click away, so a measured curve lands on a group as itself. |
+| **Speaker-group equalizers** | Front / sides / centre+LFE / back, each as Equalizer APO text — with the headphone-correction library one click away, so a measured curve lands on a group as itself. |
 | **Output routing** | Front pair only, or the pair duplicated across all channels for endpoints that need it. Plus the file paths the processing uses, and the sample-rate rules, spelled out. |
 | **Crossfeed** | On/off, crossover frequency, attenuation, delay (in samples), shelf, bass shelf, alternative method — the six values HeSuVi keeps in one line. |
 | **Channel matrix** | A hand-edited routing matrix from HeSuVi is carried over as text and honoured; the window says so and offers to discard it in favour of the sliders. |
