@@ -60,7 +60,7 @@ OmniEQ is a native Windows desktop equalizer for **[Equalizer APO](https://sourc
 <td width="50%" valign="top">
 
 ### 🎧 OmniSurround
-- Headphone surround virtualisation with **368 ear/room profiles** and **1 355 headphone-correction curves** — taken over from your existing HeSuVi installation, then HeSuVi can go
+- Headphone surround virtualisation with **312 ear/room profiles** (57 captured virtualisations + 255 research HRTF sets) and **1 355 headphone-correction curves** — taken over from your existing HeSuVi installation, then HeSuVi can go
 - Everything HeSuVi's own window could set, in five tabs: two profile lists with descriptions, source format, stereo/5.1 upmix, **speaker positions with a draggable 3D-style layout**, a per-position 7.1 test, eight channel levels, master, LFE-to-centre, four speaker-group EQs with the correction library one click away, output routing, crossfeed (six parameters)
 - Changes apply **immediately** — no restart, no re-registration
 
@@ -141,7 +141,7 @@ OmniEQ does not install, configure or repair Equalizer APO itself; it edits the 
 You do not start over. In three clicks each:
 
 1. **Presets › From Peace…** imports every profile, then offers to run Peace's own uninstaller and puts back any `config.txt` line it took with it.
-2. **Sound › OmniSurround › Move into OmniEQ…** copies HeSuVi's profile and correction library into OmniEQ's own folder, brings your settings along, switches the processing over — and only then, on a second, separate confirmation, offers to delete HeSuVi's folder.
+2. **Sound › OmniSurround… › Additional › Move into OmniEQ…** copies HeSuVi's profile and correction library into OmniEQ's own folder, brings your settings along, switches the processing over — and only then, on a second, separate confirmation, offers to delete HeSuVi's folder.
 
 Nothing is deleted before it has been copied and verified. Details: **[docs/MIGRATING.md](docs/MIGRATING.md)**
 

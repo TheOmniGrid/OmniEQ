@@ -72,7 +72,7 @@ If you want a second tier, make it about *recognition*, not features — for exa
 >
 > *(insert `assets\screenshots\01-main-expert.png`)*
 >
-> **What it does:** parametric + graphic EQ per channel and device · presets with hotkeys · undo, A/B, four quick sets · live graph · loudness compensation, crossfeed · **OmniSurround** headphone virtualisation with 368 profiles and 1 355 headphone corrections · Peace and HeSuVi migration in three clicks each · tray, global hotkeys, five languages · no telemetry, no network code at all.
+> **What it does:** parametric + graphic EQ per channel and device · presets with hotkeys · undo, A/B, four quick sets · live graph · loudness compensation, crossfeed · **OmniSurround** headphone virtualisation with 312 profiles and 1 355 headphone corrections · Peace and HeSuVi migration in three clicks each · tray, global hotkeys, five languages · no telemetry, no network code at all.
 >
 > **What it costs:** it's donationware. Supporters get the installer and every update. Details, screenshots and docs: https://github.com/%%GITHUB_USER%%/OmniEQ
 >

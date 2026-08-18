@@ -47,7 +47,7 @@ If the tray dot is **orange**, Equalizer APO is not registered on the selected d
 
 ## 6. Coming from Peace or HeSuVi
 
-See [Migrating](MIGRATING.md). Short version: *Presets › From Peace…* and *Sound › OmniSurround › Move into OmniEQ…* — each copies first, then offers removal separately.
+See [Migrating](MIGRATING.md). Short version: *Presets › From Peace…* and *Sound › OmniSurround… › Additional › Move into OmniEQ…* — each copies first, then offers removal separately.
 
 ## 7. Uninstalling
 

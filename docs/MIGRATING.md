@@ -28,7 +28,7 @@ Peace's uninstaller removes Peace. To get it back, reinstall Peace; your profile
 
 HeSuVi is 2 000 files, most of them impulse responses, plus a program that generates an Equalizer APO script. OmniEQ generates that script itself and takes over the library.
 
-### What happens when you click *Sound › OmniSurround › Move into OmniEQ…*
+### What happens when you click *Move into OmniEQ…* (OmniSurround › Additional)
 
 1. **Survey.** OmniEQ counts the profiles and correction curves and shows what will be copied and how much space it takes (about 30 MB).
 2. **Copy.** The impulse-response library (48 kHz, 44.1 kHz and the extended set), the ~1 355 headphone-correction curves with their brand folders, and the attribution file are copied to `%LOCALAPPDATA%\OmniEQ\OmniEQ\surround`. Files already there with the same size are not rewritten — one of them may be the one Equalizer APO is convolving with at that moment. A progress bar shows the copy.

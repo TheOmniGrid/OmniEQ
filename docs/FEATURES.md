@@ -39,7 +39,7 @@ Headphone surround virtualisation: multi-channel (or stereo, upmixed) audio is f
 | Feature | What it does |
 |---|---|
 | **The processing is OmniEQ's own** | OmniEQ generates the complete Equalizer APO processing chain (`omnisurround.txt`) itself. No separate program is involved once the move has run. |
-| **Profile library** | 368 ear/room profiles (HRIRs), 48 kHz and 44.1 kHz variants where they exist, plus the extended set. **Taken over from an existing HeSuVi installation** — OmniEQ does not ship them. |
+| **Profile library** | 312 ear/room profiles (HRIRs) in two lists — 57 captured virtualisations and 255 research HRTF sets — with 44.1 kHz variants where they exist. **Taken over from an existing HeSuVi installation** — OmniEQ does not ship them. |
 | **The window** | Five tabs, in the app's own look: *Virtualisation*, *Equaliser*, *Connection*, *Additional*, *About* — everything HeSuVi's own window offered. |
 | **On / off** | One switch. Applies immediately. |
 | **Profile selection** | Two lists — *Common* (the 57 captured virtualisations) and *More* (255 research HRTF sets) — with a description beside each entry. Both sample-rate variants are written; when a profile has no 44.1 kHz counterpart the window says so. |
@@ -84,7 +84,7 @@ Headphone surround virtualisation: multi-channel (or stereo, upmixed) audio is f
 | **Lite / Expert** | Lite hides the tools row, per-band type badges and the advanced panel rows. Expert shows everything. |
 | **Text scale** | 0.8× … 1.6×, live. |
 | **Theme** | Follows Windows light/dark automatically. Frameless window with the Omni design language; per-monitor DPI, including dragging between differently scaled monitors. |
-| **Languages** | English, Deutsch, Español, Français, Română — 390 strings each, verified on screen. |
+| **Languages** | English, Deutsch, Español, Français, Română — 513 strings each, verified on screen. |
 | **Help** | Bundled manual (PDF) one click from the title bar. |
 
 ---
