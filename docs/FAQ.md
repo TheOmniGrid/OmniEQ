@@ -49,6 +49,10 @@ Number formatting follows your Windows *region* setting, not the UI language —
 
 No. It contains no network code. There is no update check, no crash reporter, no analytics. See [PRIVACY.md](../PRIVACY.md).
 
+## My antivirus flags the installer / "could not be started from %TEMP%"
+
+`OmniEQSetup.exe` is a small self-contained launcher: it unpacks the actual installer and its runtime into a temporary folder, runs it, and deletes the folder afterwards. Some antivirus products dislike programs starting from `%TEMP%`. Allow it once, or use the portable zip — same program, no installer.
+
 ## Can I install it for all users / with an MSI / silently?
 
 Not in 1.0.0. The installer is per-user, into `%LOCALAPPDATA%\Programs\OmniEQ`. The portable zip works from any folder.
