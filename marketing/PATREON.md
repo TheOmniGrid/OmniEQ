@@ -14,7 +14,7 @@ Everything here is copy-and-paste ready once `tools\Fill-Links.ps1` has run. Ima
 
 **OmniEQ** is what I wanted Peace to be: native, quick, dark, and one window for everything Equalizer APO can do — parametric and graphic EQ per channel and per device, presets with hotkeys, undo, A/B, a live graph, loudness compensation, crossfeed, and **OmniSurround**, headphone surround virtualisation with the full HeSuVi profile library taken over and HeSuVi itself no longer needed.
 
-It contains no network code at all — no update checks, no telemetry, nothing leaves your machine. It is 1.2 MB of program, opens in under half a second, and idles at 0.03 % of one core in the tray. Five languages, checked on screen: English, Deutsch, Español, Français, Română.
+It makes no network connection at all unless you tick one clearly named box — no update checks for itself, no telemetry, nothing leaves your machine. It is 1.2 MB of program, opens in under half a second, and idles at 0.03 % of one core in the tray. Five languages, checked on screen: English, Deutsch, Español, Français, Română.
 
 **OmniEQ is donationware.** There is no store, no trial and no free download. If you support the project here, you get:
 
@@ -72,7 +72,7 @@ If you want a second tier, make it about *recognition*, not features — for exa
 >
 > *(insert `assets\screenshots\01-main-expert.png`)*
 >
-> **What it does:** parametric + graphic EQ per channel and device · presets with hotkeys · undo, A/B, four quick sets · live graph · loudness compensation, crossfeed · **OmniSurround** headphone virtualisation with 312 profiles and 1 355 headphone corrections · Peace and HeSuVi migration in three clicks each · tray, global hotkeys, five languages · no telemetry, no network code at all.
+> **What it does:** parametric + graphic EQ per channel and device · presets with hotkeys · undo, A/B, four quick sets · live graph · loudness compensation, crossfeed · **OmniSurround** headphone virtualisation with 312 profiles and 1 355 headphone corrections · Peace and HeSuVi migration in three clicks each · tray, global hotkeys, five languages · AutoEq databases included (6 024 curves, 8 850 equalisations) · no telemetry, no connection unless you ask for one.
 >
 > **What it costs:** it's donationware. Supporters get the installer and every update. Details, screenshots and docs: https://github.com/%%GITHUB_USER%%/OmniEQ
 >

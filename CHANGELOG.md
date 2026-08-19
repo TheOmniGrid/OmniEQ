@@ -24,7 +24,10 @@ First public release.
 ### Presets & migration
 - Preset store with search, rename, per-preset hotkeys, tray picker
 - Import from Peace with Peace's own uninstaller and config.txt repair
-- AutoEQ file import; AutoEQ database browser (Peace's database)
+- AutoEQ file import; AutoEQ database browser (Peace's database, or one imported from AutoEq's own `results` folder — 8 850 equalisations from 23 measurement rigs, no Peace required)
+- **Both AutoEq databases ship in the installer** — 6 024 correction curves and 8 850 equalisations from 23 measurement rigs — offered once on first start, merged into whatever you already have, with the previous library kept in a `.bak` folder
+- Optional, off by default: **Keep AutoEq curves up to date** — once a week, while OmniEQ runs, it asks `api.github.com` whether AutoEq's public results folder changed and fetches new curves from `raw.githubusercontent.com`; nothing else is sent, failures are silent and shown as a date and a reason in Settings
+- Correction-library update by hand from AutoEq's `hesuvi.zip` or an unpacked folder, with a merge/replace preview
 - Export/import config; back up everything to one file
 
 ### Desktop

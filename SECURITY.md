@@ -1,6 +1,6 @@
 # Security
 
-OmniEQ runs with your user's rights, edits text files in Equalizer APO's configuration folder, and talks to nothing over the network. Its attack surface is small, but not zero: it parses configuration files, preset files and imported curves, and it can start Peace's uninstaller.
+OmniEQ runs with your user's rights and edits text files in Equalizer APO's configuration folder. It talks to the network only if you switch on **Keep AutoEq curves up to date** (off by default), and then only to `api.github.com` and `raw.githubusercontent.com` over HTTPS — see [PRIVACY.md](PRIVACY.md). Its attack surface is small, but not zero: it parses configuration files, preset files and imported curves, and it can start Peace's uninstaller.
 
 ## Reporting
 

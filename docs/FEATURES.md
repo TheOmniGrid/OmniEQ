@@ -52,7 +52,7 @@ Headphone surround virtualisation: multi-channel (or stereo, upmixed) audio is f
 | **Crossfeed** | On/off, crossover frequency, attenuation, delay (in samples), shelf, bass shelf, alternative method — the six values HeSuVi keeps in one line. |
 | **Channel matrix** | A hand-edited routing matrix from HeSuVi is carried over as text and honoured; the window says so and offers to discard it in favour of the sliders. |
 | **Move into OmniEQ…** | Copies the library and your settings, switches `config.txt` over *in place*, and only then — on a second, separate confirmation — offers to delete HeSuVi's folder. It refuses to delete unless the new processing is in place and the selected profile is present in OmniEQ's own copy. |
-| **Headphone corrections** | 1 355 measured correction curves from ~190 brands (also from HeSuVi's library). Search, pick, apply — as a graphic-EQ curve, **as itself**, nothing fitted or resampled. |
+| **Headphone corrections** | 6 024 measured correction curves from 659 brands, bundled in the installer from first run — or 1 355 from ~190 brands if you take over just your existing HeSuVi library instead (see below). Search, pick, apply — as a graphic-EQ curve, **as itself**, nothing fitted or resampled. |
 
 ---
 
@@ -63,7 +63,9 @@ Headphone surround virtualisation: multi-channel (or stereo, upmixed) audio is f
 | **Preset store** | Save, rename, delete, search. Presets are plain Equalizer APO text — readable, diffable, portable. |
 | **From Peace…** | Imports every `.peace` profile from an installed Peace, then offers Peace's own uninstaller (see [Migrating](MIGRATING.md)). |
 | **AutoEQ file** | Import a curve exported by AutoEQ. |
-| **AutoEQ database** | Browse thousands of AutoEQ equalisations by headphone. *Uses the compressed database Peace ships (`AutoEQCompressed5.7z`); if you never had Peace, use the AutoEQ file import instead.* |
+| **AutoEQ database** | Browse thousands of AutoEQ equalisations by headphone. *Reads the compressed database Peace ships (`AutoEQCompressed5.7z`) — or, better, the one you import yourself (next row), which needs no Peace at all.* |
+| **Import AutoEQ database folder…** | Point OmniEQ at AutoEq's own `results` folder and it takes over every `… ParametricEQ.txt` below it — **8 850 equalisations from 23 measurement rigs** on the machine this was built on, against Peace's older copy. Peace is then not needed for the database either. |
+| **Update corrections from AutoEq…** | Enlarges the headphone-correction library from AutoEq's `results/hesuvi.zip` (or an unpacked folder): **1 355 → 6 024 curves, 659 brands** — the same set the installer already offers to bundle on first run; this menu action is for refreshing it by hand later. Shows what would change before writing — new, updated, superseded, untouched — and offers *Merge* or *Replace*; the old library is moved to a `.bak` folder beside it either way. |
 | **Export / import config** | Move a configuration between machines as a file. |
 | **Per-preset hotkeys** | Assign a global shortcut to any preset. |
 | **Tray picker** | Switch presets from the tray icon without opening the window. |
@@ -96,7 +98,7 @@ Headphone surround virtualisation: multi-channel (or stereo, upmixed) audio is f
 - **Backup on first run.** Your `config.txt` is copied to `configbeforeOmniEQ.txt` before OmniEQ ever touches it.
 - **Unknown lines survive.** Commands OmniEQ does not model are carried through byte for byte.
 - **Debounced writes.** A slider drag becomes one write, not fifty.
-- **No threads, no network.** All COM is single-threaded on the GUI thread; there is no code that could send anything anywhere.
+- **No threads; network only on request.** All COM is single-threaded on the GUI thread. Exactly one file (`nethttp.cpp`, ~100 lines) can open a connection, only for the optional AutoEq update, only to two allow-listed hosts, and only while you have the box ticked.
 - **Measured.** ~450 ms to a visible window, 0.03 % of one core hidden, no growth in memory, handles or GDI over a 14-minute soak.
 
 ---
@@ -104,5 +106,5 @@ Headphone surround virtualisation: multi-channel (or stereo, upmixed) audio is f
 ## What OmniEQ deliberately does not do
 
 - It does **not** install, register, repair or replace Equalizer APO. That is the engine's job and its own installer does it well.
-- It does **not** ship HeSuVi's profile library or Peace's AutoEQ database. Both are taken over from installations you already have.
-- It does **not** phone home, check for updates online, or collect anything.
+- It does **not** ship HeSuVi's profile library, the AutoEQ database or the correction curves. They are taken over from installations you already have, or imported from AutoEq's own published files — OmniEQ reads what you give it and never downloads anything itself.
+- It does **not** phone home, check whether a newer OmniEQ exists, or collect anything. The one optional connection fetches AutoEq curve files and nothing else.

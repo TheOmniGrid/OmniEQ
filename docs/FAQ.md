@@ -7,7 +7,22 @@ OmniEQ is **donationware**: it is given to people who support the project on Pat
 Yes. Every command OmniEQ writes is stock Equalizer APO (1.2.1 or newer): `Filter`, `Preamp`, `GraphicEQ`, `Copy`, `Convolution`, `Delay`, `LoudnessCorrection`, `Eval`/`If`, `VSTPlugin`. The single exception is **VST3** hosting, which stock Equalizer APO does not have; that button writes `VST3Plugin:` and only does something on an engine build that understands it.
 
 ### Do I need Peace or HeSuVi installed?
-No. OmniEQ works on its own. If you *have* them, OmniEQ can take over their libraries — Peace's presets and AutoEQ database, HeSuVi's surround profiles and headphone corrections — and then remove them. If you never had them, you simply don't get those two libraries; everything else works.
+No. OmniEQ works on its own. If you *have* them, OmniEQ can take over their libraries — Peace's presets and AutoEQ database, HeSuVi's surround profiles and headphone corrections — and then remove them. If you never had them, everything else works, and two of those libraries you can get without them anyway: **Curve › Import AutoEQ database folder…** and **Curve › Update corrections from AutoEq…** read the files the [AutoEq project](https://github.com/jaakkopasanen/AutoEq) publishes, which are newer and much larger than Peace's and HeSuVi's copies. Only HeSuVi's surround profiles still have to come from HeSuVi.
+
+### How do I get the bigger AutoEQ databases?
+You already have them: both ship inside the installer (6 024 correction curves, 8 850 equalisations) and the first start offers to set them up. You only need the steps below if you want to refresh them by hand instead of ticking **Keep AutoEq curves up to date**.
+
+- **Corrections:** `results/hesuvi.zip` from the AutoEq repository, about 8 MB. Feed the zip straight to **Curve › Update corrections from AutoEq…**; it shows what would change before writing anything and keeps your old library in a `.bak` folder.
+- **Parametric database:** AutoEq's `results` folder. The whole clone is large, so fetch only what is needed (about 30 MB):
+
+  ```
+  git clone --filter=blob:none --no-checkout --depth 1 https://github.com/jaakkopasanen/AutoEq
+  cd AutoEq
+  git sparse-checkout set --no-cone "/results/**/*ParametricEQ.txt"
+  git checkout
+  ```
+
+  Then point **Curve › Import AutoEQ database folder…** at that folder.
 
 ### Can I keep Peace and OmniEQ side by side?
 Yes. Import your Peace presets and decline the removal offer. Both write their own files; only one is included in `config.txt` at a time — OmniEQ's *Activate* button switches. Peace's *On/Off* would do the same the other way.
@@ -47,7 +62,7 @@ Number formatting follows your Windows *region* setting, not the UI language —
 
 ## Does OmniEQ send anything anywhere?
 
-No. It contains no network code. There is no update check, no crash reporter, no analytics. See [PRIVACY.md](../PRIVACY.md).
+No, not unless you ask it to. OmniEQ ships both AutoEq databases inside the installer and opens no socket at all until you tick **Keep AutoEq curves up to date**; with it on it contacts `api.github.com` and `raw.githubusercontent.com`, at most once a week, to fetch published curve files. There is still no update check for OmniEQ itself, no crash reporter and no analytics. See [PRIVACY.md](../PRIVACY.md).
 
 ## My antivirus flags the installer / "could not be started from %TEMP%"
 

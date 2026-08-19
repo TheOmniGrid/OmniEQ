@@ -46,7 +46,7 @@ The Software is licensed, not sold. The Author retains all right, title and inte
 
 The Software reads and writes files in Equalizer APO's configuration folder (by default `C:\Program Files\EqualizerAPO\config`), including `config.txt`, and stores its own presets and settings in your user profile and in the Windows registry under `HKCU\Software\OmniEQ`. On first run it copies your existing `config.txt` to `configbeforeOmniEQ.txt`. The optional migration features may — only after asking you and only after copying — start Peace's own uninstaller or delete HeSuVi's folder. **Keeping backups of your audio configuration is your responsibility.**
 
-The Software contains no networking code, collects no data and sends nothing to the Author or anyone else. See `PRIVACY.md`.
+The Software collects no data and sends nothing to the Author or anyone else. It makes no network connection at all unless you switch on "Keep AutoEq curves up to date", which is off by default; with it on it contacts only `api.github.com` and `raw.githubusercontent.com` to fetch published headphone-correction files. See `PRIVACY.md`.
 
 ## 7. Updates and support
 

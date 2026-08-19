@@ -73,9 +73,9 @@ OmniEQ uses the system UI font (Segoe UI on Windows). No fonts are bundled.
 
 **Attribution.** OmniSurround's processing chain — the upmix, the fourteen-channel split, the convolution and the mix-down — reproduces the signal flow HeSuVi established for Equalizer APO, and its default mixing coefficients were taken from the configuration HeSuVi generates. The Author gratefully acknowledges HeSuVi's design; the arrangement is HeSuVi's, the implementation is OmniEQ's.
 
-### AutoEQ — MIT
+### AutoEQ — MIT (redistributed with OmniEQ)
 
-[AutoEQ](https://github.com/jaakkopasanen/AutoEq) by Jaakko Pasanen provides headphone equalisation results under the MIT licence. OmniEQ can import AutoEQ files you export yourself, and can browse the compressed AutoEQ database that Peace ships (`AutoEQCompressed5.7z`) if it is present in your Equalizer APO folder. OmniEQ does not include the database.
+[AutoEQ](https://github.com/jaakkopasanen/AutoEq) by Jaakko Pasanen provides headphone equalisation results under the MIT licence (Copyright 2018–2022 Jaakko Pasanen). OmniEQ can import AutoEQ files you export yourself; it can browse the compressed AutoEQ database that Peace ships (`AutoEQCompressed5.7z`) if it is present in your Equalizer APO folder; and it can import, from files **you** download from the AutoEq project, both the parametric database (`results/**/… ParametricEQ.txt`) and the headphone-correction curves (`results/hesuvi.zip`). **OmniEQ redistributes two of AutoEq's published sets inside its installer**: the correction bundle (`results/hesuvi.zip`, 6 024 curves) and the parametric results (`… ParametricEQ.txt`, 8 850 equalisations from 23 measurement rigs). They sit in the `data` folder next to the program, together with AutoEq's MIT licence text, and are installed into your own profile only when you say so. The equalisations are derived works computed from measurements made by others — oratory1990, crinacle, Innerfidelity, Rtings, Kuulokenurkka and further measurers named in each file's own path; those measurements remain theirs. If you are one of them and would rather not be included, write to the address in `PRIVACY.md` and the next build will leave your set out. The imported files keep AutoEq's MIT terms, and the licence text is reproduced above with the other MIT components.
 
 ---
 
@@ -87,7 +87,8 @@ When you use the migration features, OmniEQ copies files **from installations yo
 |---|---|---|
 | Presets (`*.peace`, `peace.txt`, `peace.ini`) | your Peace installation | `%APPDATA%\OmniEQ\OmniEQ\` |
 | Impulse responses (`hrir\*.wav`, `hrir\44\`, `hrir\more\`) and `info.csv` | your HeSuVi installation | `%LOCALAPPDATA%\OmniEQ\OmniEQ\surround\hrir\` |
-| Headphone-correction curves (`eq\<brand>\*.txt`) | your HeSuVi installation | `%LOCALAPPDATA%\OmniEQ\OmniEQ\surround\correction\` |
+| Headphone-correction curves (`eq\<brand>\*.txt`) | your HeSuVi installation, or an AutoEq `hesuvi.zip` / folder you downloaded | `%LOCALAPPDATA%\OmniEQ\OmniEQ\surround\correction\` |
+| Parametric AutoEQ results (`… ParametricEQ.txt`) | an AutoEq `results` folder you downloaded | `%LOCALAPPDATA%\OmniEQ\OmniEQ\autoeq\` |
 
 The extended impulse-response set (`hrir\more`) originates from several published HRTF databases whose authors ask to be cited; HeSuVi ships that information in `info.csv`, and OmniEQ **copies that file along with the profiles** so the attribution stays with the data.
 
