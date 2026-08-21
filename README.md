@@ -20,6 +20,10 @@
 </p>
 
 <p align="center">
+  <a href="#getting-it"><b>Get OmniEQ</b></a> · <a href="#feature-overview">Features</a> · <a href="docs/FAQ.md">FAQ</a> · <a href="CHANGELOG.md">Changelog</a>
+</p>
+
+<p align="center">
   <img src="assets/screenshots/01-main-expert.png" alt="OmniEQ main window, Expert mode" width="920">
 </p>
 
