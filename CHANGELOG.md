@@ -2,7 +2,7 @@
 
 All notable changes to OmniEQ. Dates are release dates.
 
-## 1.0.0 — %%RELEASE_DATE%%
+## 1.0.0 — 2026-08-19
 
 First public release.
 

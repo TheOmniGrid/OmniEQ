@@ -1,7 +1,7 @@
 # OmniEQ End-User Licence Agreement (Donationware)
 
-**Version 1.0 — %%YEAR%%**
-**Licensor:** %%AUTHOR_NAME%% ("the Author")
+**Version 1.0 — 2026**
+**Licensor:** OmniVex ("the Author")
 **Software:** OmniEQ, including OmniSurround, the installer, the portable build, the bundled manual and all updates the Author chooses to provide ("the Software")
 
 > **Plain-language summary (not part of the agreement):** OmniEQ is given to supporters as a thank-you. You may install and use it on your own computers. You may not pass it on, sell it, or take it apart. It comes as it is, without a warranty. Nothing here limits the rights you have under the Qt LGPL licence or under the law of your country.
@@ -66,13 +66,13 @@ This licence ends automatically if you breach it. On termination you must stop u
 
 ## 11. General
 
-11.1 This agreement is governed by the laws of **%%COUNTRY%%**, without regard to conflict-of-law rules. If you are a consumer, you also keep the protection of the mandatory consumer-protection provisions of the country you live in.
+11.1 This agreement is governed by the laws of **Romania**, without regard to conflict-of-law rules. If you are a consumer, you also keep the protection of the mandatory consumer-protection provisions of the country you live in.
 
 11.2 If any provision is held unenforceable, the rest remains in force.
 
 11.3 This is the entire agreement between you and the Author concerning the Software and replaces any earlier understanding.
 
-11.4 Contact: %%CONTACT_EMAIL%%
+11.4 Contact: omnivex@theomnigrid.biz
 
 ---
 

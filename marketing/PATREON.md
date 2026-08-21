@@ -26,7 +26,7 @@ You do **not** get: an obligation on my side to add any particular feature, or a
 
 **What you need:** Windows 11 x64 (Windows 10 should work, untested), Equalizer APO 1.2.1 or newer installed and registered on your output device, and the Microsoft Visual C++ 2015–2022 runtime.
 
-Documentation, screenshots and the licence are public on GitHub: https://github.com/%%GITHUB_USER%%/OmniEQ
+Documentation, screenshots and the licence are public on GitHub: https://github.com/TheOmniGrid/OmniEQ
 
 ---
 
@@ -53,12 +53,12 @@ If you want a second tier, make it about *recognition*, not features — for exa
 >
 > **Before you install:** Equalizer APO must be installed and registered on the output device you want to equalise. OmniEQ controls it; it does not install it. https://equalizerapo.com/
 >
-> **First steps:** Getting started guide → https://github.com/%%GITHUB_USER%%/OmniEQ/blob/main/docs/GETTING-STARTED.md
-> **Coming from Peace or HeSuVi?** → https://github.com/%%GITHUB_USER%%/OmniEQ/blob/main/docs/MIGRATING.md
+> **First steps:** Getting started guide → https://github.com/TheOmniGrid/OmniEQ/blob/main/docs/GETTING-STARTED.md
+> **Coming from Peace or HeSuVi?** → https://github.com/TheOmniGrid/OmniEQ/blob/main/docs/MIGRATING.md
 >
-> **Please don't re-upload these files.** OmniEQ is donationware; the download is what your support buys, and it only works if it stays here. Licence: https://github.com/%%GITHUB_USER%%/OmniEQ/blob/main/LICENSE.md
+> **Please don't re-upload these files.** OmniEQ is donationware; the download is what your support buys, and it only works if it stays here. Licence: https://github.com/TheOmniGrid/OmniEQ/blob/main/LICENSE.md
 >
-> Bugs → https://github.com/%%GITHUB_USER%%/OmniEQ/issues · Questions → the comments here or GitHub Discussions.
+> Bugs → https://github.com/TheOmniGrid/OmniEQ/issues · Questions → the comments here or GitHub Discussions.
 
 *(Attach both files to the post. Patreon allows attachments up to 200 MB; both together are ~26 MB.)*
 
@@ -74,6 +74,6 @@ If you want a second tier, make it about *recognition*, not features — for exa
 >
 > **What it does:** parametric + graphic EQ per channel and device · presets with hotkeys · undo, A/B, four quick sets · live graph · loudness compensation, crossfeed · **OmniSurround** headphone virtualisation with 312 profiles and 1 355 headphone corrections · Peace and HeSuVi migration in three clicks each · tray, global hotkeys, five languages · AutoEq databases included (6 024 curves, 8 850 equalisations) · no telemetry, no connection unless you ask for one.
 >
-> **What it costs:** it's donationware. Supporters get the installer and every update. Details, screenshots and docs: https://github.com/%%GITHUB_USER%%/OmniEQ
+> **What it costs:** it's donationware. Supporters get the installer and every update. Details, screenshots and docs: https://github.com/TheOmniGrid/OmniEQ
 >
 > Windows 11 x64 · needs Equalizer APO 1.2.1+ · 1.2 MB · opens in half a second.

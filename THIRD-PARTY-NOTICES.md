@@ -15,7 +15,7 @@ OmniEQ is built with the [Qt framework](https://www.qt.io/) (version 6.10) and i
 Qt is licensed under the **GNU Lesser General Public License version 3** (LGPL-3.0). A copy of the LGPL v3 is at <https://www.gnu.org/licenses/lgpl-3.0.html>. In accordance with the LGPL:
 
 - You may **replace** the Qt libraries shipped with OmniEQ with your own build of the same or a compatible version; because linking is dynamic, no relinking of `omnieq.exe` is required.
-- Qt's complete corresponding **source code** is available from the Qt Project at <https://download.qt.io/official_releases/qt/6.10/> and <https://code.qt.io/>. If you cannot obtain it there, write to %%CONTACT_EMAIL%% and the Author will supply it at no more than the cost of the medium.
+- Qt's complete corresponding **source code** is available from the Qt Project at <https://download.qt.io/official_releases/qt/6.10/> and <https://code.qt.io/>. If you cannot obtain it there, write to omnivex@theomnigrid.biz and the Author will supply it at no more than the cost of the medium.
 - Nothing in OmniEQ's licence restricts the rights the LGPL grants you with respect to Qt.
 
 Qt is © The Qt Company Ltd and other contributors.
@@ -96,4 +96,4 @@ The extended impulse-response set (`hrir\more`) originates from several publishe
 
 ## Trademarks
 
-Windows is a trademark of Microsoft Corporation. Qt is a trademark of The Qt Company Ltd. Equalizer APO, Peace, HeSuVi and AutoEQ are the names of their respective projects. OmniEQ, OmniSurround and OmniVex are names used by %%AUTHOR_NAME%%. No affiliation or endorsement is implied.
+Windows is a trademark of Microsoft Corporation. Qt is a trademark of The Qt Company Ltd. Equalizer APO, Peace, HeSuVi and AutoEQ are the names of their respective projects. OmniEQ, OmniSurround and OmniVex are names used by OmniVex. No affiliation or endorsement is implied.

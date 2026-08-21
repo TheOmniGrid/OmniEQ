@@ -6,7 +6,7 @@ Images: `assets\brand\banner-1600x500.png` as the **cover** (Ko-fi crops it to a
 
 ## Page "About" (short — Ko-fi shows it above the fold)
 
-> **OmniEQ** — a modern equalizer and headphone-surround panel for Equalizer APO on Windows. Replaces Peace and HeSuVi in one window, migrates everything you have in them. Donationware: supporters get the download. Docs & screenshots on GitHub: https://github.com/%%GITHUB_USER%%/OmniEQ
+> **OmniEQ** — a modern equalizer and headphone-surround panel for Equalizer APO on Windows. Replaces Peace and HeSuVi in one window, migrates everything you have in them. Donationware: supporters get the download. Docs & screenshots on GitHub: https://github.com/TheOmniGrid/OmniEQ
 
 ## Longer description (below)
 
@@ -39,4 +39,4 @@ Use the *Public launch post* from `PATREON.md`; attach `assets\brand\social-1280
 
 ## The one-line pitch (for the Ko-fi button, Discord, forums)
 
-> OmniEQ — Equalizer APO's modern front end: EQ + headphone surround in one window, replaces Peace and HeSuVi. Donationware. → https://github.com/%%GITHUB_USER%%/OmniEQ
+> OmniEQ — Equalizer APO's modern front end: EQ + headphone surround in one window, replaces Peace and HeSuVi. Donationware. → https://github.com/TheOmniGrid/OmniEQ

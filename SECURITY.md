@@ -4,7 +4,7 @@ OmniEQ runs with your user's rights and edits text files in Equalizer APO's conf
 
 ## Reporting
 
-If you believe you have found a security issue — for example a crafted preset or `.peace` file that makes OmniEQ misbehave — please **do not open a public issue**. Write to **%%CONTACT_EMAIL%%** with the subject `OmniEQ security`. Include what you did, what happened, and the file if you can. You will get an answer within a few days.
+If you believe you have found a security issue — for example a crafted preset or `.peace` file that makes OmniEQ misbehave — please **do not open a public issue**. Write to **omnivex@theomnigrid.biz** with the subject `OmniEQ security`. Include what you did, what happened, and the file if you can. You will get an answer within a few days.
 
 ## Scope
 

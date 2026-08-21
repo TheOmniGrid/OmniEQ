@@ -45,4 +45,4 @@ The uninstaller offers to remove presets and settings. If you say no, they stay 
 
 ## Contact
 
-%%CONTACT_EMAIL%%
+omnivex@theomnigrid.biz

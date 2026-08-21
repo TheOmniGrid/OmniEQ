@@ -6,9 +6,9 @@
 <p align="center"><b>Precision equalizer and headphone surround for Equalizer APO — the modern replacement for Peace and HeSuVi, in one window.</b></p>
 
 <p align="center">
-  <a href="%%PATREON_URL%%"><img alt="Get it on Patreon" src="https://img.shields.io/badge/Get%20it%20on-Patreon-FF424D?style=for-the-badge&logo=patreon&logoColor=white"></a>
+  <a href="https://www.patreon.com/TheOmniGrid"><img alt="Get it on Patreon" src="https://img.shields.io/badge/Get%20it%20on-Patreon-FF424D?style=for-the-badge&logo=patreon&logoColor=white"></a>
   &nbsp;
-  <a href="%%KOFI_URL%%"><img alt="Get it on Ko-fi" src="https://img.shields.io/badge/Get%20it%20on-Ko--fi-FF5E5B?style=for-the-badge&logo=kofi&logoColor=white"></a>
+  <a href="https://ko-fi.com/theomnigrid"><img alt="Get it on Ko-fi" src="https://img.shields.io/badge/Get%20it%20on-Ko--fi-FF5E5B?style=for-the-badge&logo=kofi&logoColor=white"></a>
 </p>
 
 <p align="center">
@@ -115,9 +115,9 @@ Full list with details: **[docs/FEATURES.md](docs/FEATURES.md)**
 OmniEQ is **donationware**. Supporters receive both builds — the installer (`OmniEQSetup.exe`) and the portable zip — plus updates:
 
 <p>
-  <a href="%%PATREON_URL%%"><img alt="Patreon" src="https://img.shields.io/badge/Patreon-%%PATREON_HANDLE%%-FF424D?style=for-the-badge&logo=patreon&logoColor=white"></a>
+  <a href="https://www.patreon.com/TheOmniGrid"><img alt="Patreon" src="https://img.shields.io/badge/Patreon-TheOmniGrid-FF424D?style=for-the-badge&logo=patreon&logoColor=white"></a>
   &nbsp;
-  <a href="%%KOFI_URL%%"><img alt="Ko-fi" src="https://img.shields.io/badge/Ko--fi-%%KOFI_HANDLE%%-FF5E5B?style=for-the-badge&logo=kofi&logoColor=white"></a>
+  <a href="https://ko-fi.com/theomnigrid"><img alt="Ko-fi" src="https://img.shields.io/badge/Ko--fi-theomnigrid-FF5E5B?style=for-the-badge&logo=kofi&logoColor=white"></a>
 </p>
 
 Neither the installer nor the source code is published on GitHub. This repository is the project's public face: documentation, screenshots, the licence, and the issue tracker.
@@ -161,8 +161,8 @@ Nothing is deleted before it has been copied and verified. Details: **[docs/MIGR
 
 ## Support & feedback
 
-- **Bugs and feature requests:** [open an issue](https://github.com/%%GITHUB_USER%%/OmniEQ/issues) — templates are provided.
-- **Questions:** [Discussions](https://github.com/%%GITHUB_USER%%/OmniEQ/discussions).
+- **Bugs and feature requests:** [open an issue](https://github.com/TheOmniGrid/OmniEQ/issues) — templates are provided.
+- **Questions:** [Discussions](https://github.com/TheOmniGrid/OmniEQ/discussions).
 - **Security:** see [SECURITY.md](SECURITY.md).
 
 Support is best-effort. OmniEQ is made by one person; supporters' reports get looked at first.
@@ -177,4 +177,4 @@ Support is best-effort. OmniEQ is made by one person; supporters' reports get lo
 
 *Equalizer APO, Peace and HeSuVi are independent projects by their respective authors. OmniEQ is not affiliated with or endorsed by them.*
 
-<p align="center"><sub>Part of the <b>OmniVex</b> family of tools · © %%YEAR%% %%AUTHOR_NAME%%</sub></p>
+<p align="center"><sub>Part of the <b>OmniVex</b> family of tools · © 2026 OmniVex</sub></p>

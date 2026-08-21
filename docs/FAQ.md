@@ -46,7 +46,7 @@ Turn on **Prevent clipping automatically** in Settings — it pulls the preamp d
 
 ## Surround sounds wrong after the move from HeSuVi
 
-While HeSuVi's folder still exists: restore `config.txt.before-omnisurround` over `config.txt` — HeSuVi is back in charge instantly. Then please [open an issue](https://github.com/%%GITHUB_USER%%/OmniEQ/issues) with your profile name and settings; the processing chain is generated deterministically and can be compared line by line.
+While HeSuVi's folder still exists: restore `config.txt.before-omnisurround` over `config.txt` — HeSuVi is back in charge instantly. Then please [open an issue](https://github.com/TheOmniGrid/OmniEQ/issues) with your profile name and settings; the processing chain is generated deterministically and can be compared line by line.
 
 ## Where are my presets?
 
@@ -78,4 +78,4 @@ Not in 1.0.0. The installer is per-user, into `%LOCALAPPDATA%\Programs\OmniEQ`. 
 
 ## I found a bug
 
-[Open an issue](https://github.com/%%GITHUB_USER%%/OmniEQ/issues) with the bug template. The most useful things to include: your Equalizer APO version, whether the tray dot is green, and the contents of `omnieq.txt` (it is plain text and holds no personal data).
+[Open an issue](https://github.com/TheOmniGrid/OmniEQ/issues) with the bug template. The most useful things to include: your Equalizer APO version, whether the tray dot is green, and the contents of `omnieq.txt` (it is plain text and holds no personal data).
