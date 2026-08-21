@@ -127,10 +127,10 @@ Full list with details: **[docs/FEATURES.md](docs/FEATURES.md)**
 
 OmniEQ is **donationware**. Supporters receive both builds — the installer (`OmniEQSetup.exe`) and the portable zip — plus updates:
 
-<p>
-  <a href="https://www.patreon.com/TheOmniGrid"><img alt="Patreon" src="https://img.shields.io/badge/Patreon-TheOmniGrid-FF424D?style=for-the-badge&logo=patreon&logoColor=white"></a>
-  &nbsp;
-  <a href="https://ko-fi.com/theomnigrid"><img alt="Ko-fi" src="https://img.shields.io/badge/Ko--fi-theomnigrid-FF5E5B?style=for-the-badge&logo=kofi&logoColor=white"></a>
+<p align="center">
+  <a href="https://www.patreon.com/TheOmniGrid"><img src="assets/brand/support-patreon.svg" height="64" alt="Support OmniEQ on Patreon"></a>
+  &nbsp;&nbsp;
+  <a href="https://ko-fi.com/theomnigrid"><img src="assets/brand/support-kofi.svg" height="64" alt="Support OmniEQ on Ko-fi"></a>
 </p>
 
 Neither the installer nor the source code is published on GitHub. This repository is the project's public face: documentation, screenshots, the licence, and the issue tracker.
