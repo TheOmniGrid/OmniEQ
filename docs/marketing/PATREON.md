@@ -53,7 +53,7 @@ If you want a second tier, make it about *recognition*, not features — for exa
 >
 > **Before you install:** Equalizer APO must be installed and registered on the output device you want to equalise. OmniEQ controls it; it does not install it. https://equalizerapo.com/
 >
-> **First steps:** Getting started guide → https://github.com/TheOmniGrid/OmniEQ/blob/main/docs/GETTING-STARTED.md
+> **First steps:** Installation guide → https://github.com/TheOmniGrid/OmniEQ/blob/main/INSTALLATION.md
 > **Coming from Peace or HeSuVi?** → https://github.com/TheOmniGrid/OmniEQ/blob/main/docs/MIGRATING.md
 >
 > **Please don't re-upload these files.** OmniEQ is donationware; the download is what your support buys, and it only works if it stays here. Licence: https://github.com/TheOmniGrid/OmniEQ/blob/main/LICENSE.md
