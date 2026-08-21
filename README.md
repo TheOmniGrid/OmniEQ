@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/brand/banner-1600x500.png" alt="OmniEQ — Precision Equalizer for Equalizer APO" width="100%">
+  <img src="assets/brand/banner-1600x500.gif" alt="OmniEQ — Precision Equalizer for Equalizer APO" width="100%">
 </p>
 
 <h1 align="center">OmniEQ</h1>
