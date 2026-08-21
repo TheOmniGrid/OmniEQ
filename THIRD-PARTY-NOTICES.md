@@ -4,6 +4,16 @@ OmniEQ is proprietary software, but it stands on other people's work. This file 
 
 ---
 
+## Why this isn't GPL
+
+Peace and HeSuVi were the reference for what OmniEQ should do; they are not where its code came from. OmniEQ was written from scratch — no code from Peace or HeSuVi was copied, ported or translated. Copyright covers code, not the idea of a parametric equalizer or a headphone-surround panel, so matching another program's feature set is not the same thing as building a derivative work of it. OmniEQ's filter-response math comes from the public Audio EQ Cookbook, not from Peace's source.
+
+Where OmniEQ talks to those programs at all, it does so through their documented file formats, not their code: it writes Equalizer APO's own config syntax (a separate, unmodified GPLv2 engine OmniEQ is never linked against), reads `.peace` presets as plain data, and parses the text lines HeSuVi itself writes into that config (`Eval:`, `Convolution:`, `Copy:` — see the Attribution note below) so it can detect an existing installation and offer to take it over. OmniEQ performs no audio processing of its own at all; every number it writes is executed by Equalizer APO's own engine, not by OmniEQ.
+
+The only licence obligations OmniEQ actually carries are the ones listed below: Qt's LGPLv3 (satisfied by dynamic linking), miniz's MIT notice, and AutoEQ's MIT notice for the bundled data.
+
+---
+
 ## Included in OmniEQ
 
 ### Qt 6 — LGPL v3
