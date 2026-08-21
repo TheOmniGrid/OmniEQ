@@ -30,9 +30,13 @@
   <a href="#screenshots"><img alt="Screenshots" src="https://img.shields.io/badge/Screenshots-2B2545?style=for-the-badge"></a>
   <a href="PRIVACY.md"><img alt="Privacy" src="https://img.shields.io/badge/Privacy-2B2545?style=for-the-badge"></a>
   <a href="#requirements"><img alt="Requirements" src="https://img.shields.io/badge/Requirements-2B2545?style=for-the-badge"></a>
-  <a href="docs/FAQ.md"><img alt="FAQ" src="https://img.shields.io/badge/FAQ-2B2545?style=for-the-badge"></a>
+  <a href="FAQ.md"><img alt="FAQ" src="https://img.shields.io/badge/FAQ-2B2545?style=for-the-badge"></a>
+  <a href="SUPPORT.md"><img alt="Support" src="https://img.shields.io/badge/Support-2B2545?style=for-the-badge"></a>
   <a href="CHANGELOG.md"><img alt="Changelog" src="https://img.shields.io/badge/Changelog-2B2545?style=for-the-badge"></a>
 </p>
+
+> [!IMPORTANT]
+> **Documentation-only repository.** This public repository contains OmniEQ documentation, approved artwork, and screenshots—not the application source tree, installer, portable build, signing material, or private build infrastructure. Official distribution remains outside GitHub.
 
 <p align="center">
   <img src="assets/screenshots/01-main-expert.png" alt="OmniEQ main window, Expert mode" width="920">
@@ -97,7 +101,18 @@ OmniEQ is a native Windows desktop equalizer for **[Equalizer APO](https://sourc
 </tr>
 </table>
 
-Full list with details: **[docs/FEATURES.md](docs/FEATURES.md)**
+Full list with details: **[FEATURES.md](FEATURES.md)**
+
+---
+
+## Coming from Peace or HeSuVi?
+
+You do not start over. In three clicks each:
+
+1. **Presets › From Peace…** imports every profile, then offers to run Peace's own uninstaller and puts back any `config.txt` line it took with it.
+2. **Sound › OmniSurround… › Additional › Move into OmniEQ…** copies HeSuVi's profile and correction library into OmniEQ's own folder, brings your settings along, switches the processing over — and only then, on a second, separate confirmation, offers to delete HeSuVi's folder.
+
+Nothing is deleted before it has been copied and verified. Details: **[docs/MIGRATING.md](docs/MIGRATING.md)**
 
 ---
 
@@ -125,19 +140,7 @@ Full list with details: **[docs/FEATURES.md](docs/FEATURES.md)**
 
 ---
 
-## Get OmniEQ
-
-OmniEQ is **donationware**. Supporters receive both builds — the installer (`OmniEQSetup.exe`) and the portable zip — plus updates:
-
-<p align="center">
-  <a href="https://www.patreon.com/TheOmniGrid"><img src="assets/brand/support-patreon.svg" height="64" alt="Support OmniEQ on Patreon"></a>
-  &nbsp;&nbsp;
-  <a href="https://ko-fi.com/theomnigrid"><img src="assets/brand/support-kofi.svg" height="64" alt="Support OmniEQ on Ko-fi"></a>
-</p>
-
-Neither the installer nor the source code is published on GitHub. This repository is the project's public face: documentation, screenshots, the licence, and the issue tracker.
-
-### Requirements
+## Requirements
 
 | | |
 |---|---|
@@ -151,14 +154,17 @@ OmniEQ does not install, configure or repair Equalizer APO itself; it edits the 
 
 ---
 
-## Coming from Peace or HeSuVi?
+## Get OmniEQ
 
-You do not start over. In three clicks each:
+OmniEQ is **donationware**. Supporters receive both builds — the installer (`OmniEQSetup.exe`) and the portable zip — plus updates:
 
-1. **Presets › From Peace…** imports every profile, then offers to run Peace's own uninstaller and puts back any `config.txt` line it took with it.
-2. **Sound › OmniSurround… › Additional › Move into OmniEQ…** copies HeSuVi's profile and correction library into OmniEQ's own folder, brings your settings along, switches the processing over — and only then, on a second, separate confirmation, offers to delete HeSuVi's folder.
+<p align="center">
+  <a href="https://www.patreon.com/TheOmniGrid"><img src="assets/brand/support-patreon.svg" height="64" alt="Support OmniEQ on Patreon"></a>
+  &nbsp;&nbsp;
+  <a href="https://ko-fi.com/theomnigrid"><img src="assets/brand/support-kofi.svg" height="64" alt="Support OmniEQ on Ko-fi"></a>
+</p>
 
-Nothing is deleted before it has been copied and verified. Details: **[docs/MIGRATING.md](docs/MIGRATING.md)**
+Neither the installer nor the source code is published on GitHub. This repository is the project's public face: documentation, screenshots, the licence, and the issue tracker.
 
 ---
 
@@ -166,10 +172,14 @@ Nothing is deleted before it has been copied and verified. Details: **[docs/MIGR
 
 | | |
 |---|---|
-| [Getting started](docs/GETTING-STARTED.md) | Install, first run, activating OmniEQ, daily use |
-| [Features](docs/FEATURES.md) | The complete list, with what each thing actually does |
+| [Installation](INSTALLATION.md) | Install, first run, activating OmniEQ, daily use |
+| [Features](FEATURES.md) | The complete list, with what each thing actually does |
 | [Migrating from Peace and HeSuVi](docs/MIGRATING.md) | Step by step, with what happens on disk |
-| [FAQ & troubleshooting](docs/FAQ.md) | "No sound", "not registered", "where are my presets" |
+| [FAQ & troubleshooting](FAQ.md) | "No sound", "not registered", "where are my presets" |
+| [Privacy](PRIVACY.md) | Local data, optional network access, and telemetry boundaries |
+| [Support](SUPPORT.md) | Useful reports, privacy redaction, and contact routes |
+| [Security](SECURITY.md) | Private vulnerability reporting |
+| [Contributing](CONTRIBUTING.md) | Documentation and reproducible-report scope |
 | [Changelog](CHANGELOG.md) | What changed in each version |
 
 ---

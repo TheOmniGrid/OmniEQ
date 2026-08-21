@@ -62,7 +62,7 @@ Number formatting follows your Windows *region* setting, not the UI language —
 
 ## Does OmniEQ send anything anywhere?
 
-No, not unless you ask it to. OmniEQ ships both AutoEq databases inside the installer and opens no socket at all until you tick **Keep AutoEq curves up to date**; with it on it contacts `api.github.com` and `raw.githubusercontent.com`, at most once a week, to fetch published curve files. There is still no update check for OmniEQ itself, no crash reporter and no analytics. See [PRIVACY.md](../PRIVACY.md).
+No, not unless you ask it to. OmniEQ ships both AutoEq databases inside the installer and opens no socket at all until you tick **Keep AutoEq curves up to date**; with it on it contacts `api.github.com` and `raw.githubusercontent.com`, at most once a week, to fetch published curve files. There is still no update check for OmniEQ itself, no crash reporter and no analytics. See [PRIVACY.md](PRIVACY.md).
 
 ## My antivirus flags the installer / "could not be started from %TEMP%"
 

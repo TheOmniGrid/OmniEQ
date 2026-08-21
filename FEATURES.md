@@ -61,7 +61,7 @@ Headphone surround virtualisation: multi-channel (or stereo, upmixed) audio is f
 | Feature | What it does |
 |---|---|
 | **Preset store** | Save, rename, delete, search. Presets are plain Equalizer APO text — readable, diffable, portable. |
-| **From Peace…** | Imports every `.peace` profile from an installed Peace, then offers Peace's own uninstaller (see [Migrating](MIGRATING.md)). |
+| **From Peace…** | Imports every `.peace` profile from an installed Peace, then offers Peace's own uninstaller (see [Migrating](docs/MIGRATING.md)). |
 | **AutoEQ file** | Import a curve exported by AutoEQ. |
 | **AutoEQ database** | Browse thousands of AutoEQ equalisations by headphone. *Reads the compressed database Peace ships (`AutoEQCompressed5.7z`) — or, better, the one you import yourself (next row), which needs no Peace at all.* |
 | **Import AutoEQ database folder…** | Point OmniEQ at AutoEq's own `results` folder and it takes over every `… ParametricEQ.txt` below it — **8 850 equalisations from 23 measurement rigs** on the machine this was built on, against Peace's older copy. Peace is then not needed for the database either. |
