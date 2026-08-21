@@ -4,6 +4,7 @@
 
 <h1 align="center">OmniEQ</h1>
 <p align="center"><b>Precision equalizer and headphone surround for Equalizer APO — the modern replacement for Peace and HeSuVi, in one window.</b></p>
+<p align="center">Part of the <a href="#the-omnivex-suite">OmniVex</a> suite.</p>
 
 <p align="center">
   <a href="https://www.patreon.com/TheOmniGrid"><img alt="Get it on Patreon" src="https://img.shields.io/badge/Get%20it%20on-Patreon-FF424D?style=for-the-badge&logo=patreon&logoColor=white"></a>
