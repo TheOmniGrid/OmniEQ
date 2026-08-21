@@ -177,4 +177,18 @@ Support is best-effort. OmniEQ is made by one person; supporters' reports get lo
 
 *Equalizer APO, Peace and HeSuVi are independent projects by their respective authors. OmniEQ is not affiliated with or endorsed by them.*
 
+---
+
+## The OmniVex suite
+
+OmniEQ is one of a family of tools sharing a design language and a philosophy —
+modern, fast, no telemetry:
+
+**OmniTheme** · **OmniBlock** · **OmniCleaner** · **OmniAPO** · **OmniEQ** · **OmniPlay** · **OmniScale** · **OmniShade** · **OmniVisuals** · **OmniGPU** · **OmniVex Gaming Wrappers**
+
+<sub>**OmniVex Gaming Wrappers** is four Direct3D compatibility installers — OmniDXVK, OmniDxWrapper, OmniVKD3D and OmniVoodoo2.</sub>
+
+<sub>Tuned for framerate, mixed for headroom, sharp to the pixel. Donationware
+tools for gamers and audiophiles — audio, graphics, and a bit of privacy too.</sub>
+
 <p align="center"><sub>Part of the <b>OmniVex</b> family of tools · © 2026 OmniVex</sub></p>
