@@ -19,8 +19,17 @@
   <img alt="License" src="https://img.shields.io/badge/license-Donationware%20EULA-6A5BDB?style=flat-square">
 </p>
 
+<!-- Quick navigation. These are clickable: each chip jumps to a section of this
+     page, or to the document it names. Anchors are GitHub's own slugs for the
+     headings below -- if a heading is renamed, its chip has to be renamed too. -->
 <p align="center">
-  <a href="#getting-it"><b>Get OmniEQ</b></a> · <a href="#feature-overview">Features</a> · <a href="docs/FAQ.md">FAQ</a> · <a href="CHANGELOG.md">Changelog</a>
+  <a href="#getting-it"><img alt="Get OmniEQ" src="https://img.shields.io/badge/⬇%20Get%20OmniEQ-8A7BFF?style=for-the-badge"></a>
+  <a href="#feature-overview"><img alt="Features" src="https://img.shields.io/badge/Features-2B2545?style=for-the-badge"></a>
+  <a href="#screenshots"><img alt="Screenshots" src="https://img.shields.io/badge/Screenshots-2B2545?style=for-the-badge"></a>
+  <a href="#coming-from-peace-or-hesuvi"><img alt="Migrating" src="https://img.shields.io/badge/Migrating-2B2545?style=for-the-badge"></a>
+  <a href="PRIVACY.md"><img alt="Privacy" src="https://img.shields.io/badge/Privacy-2B2545?style=for-the-badge"></a>
+  <a href="docs/FAQ.md"><img alt="FAQ" src="https://img.shields.io/badge/FAQ-2B2545?style=for-the-badge"></a>
+  <a href="CHANGELOG.md"><img alt="Changelog" src="https://img.shields.io/badge/Changelog-2B2545?style=for-the-badge"></a>
 </p>
 
 <p align="center">
