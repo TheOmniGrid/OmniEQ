@@ -24,11 +24,12 @@
      page, or to the document it names. Anchors are GitHub's own slugs for the
      headings below -- if a heading is renamed, its chip has to be renamed too. -->
 <p align="center">
-  <a href="#getting-it"><img alt="Get OmniEQ" src="https://img.shields.io/badge/⬇%20Get%20OmniEQ-8A7BFF?style=for-the-badge"></a>
+  <a href="#get-omnieq"><img alt="Get OmniEQ" src="https://img.shields.io/badge/⬇%20Get%20OmniEQ-8A7BFF?style=for-the-badge"></a>
   <a href="#feature-overview"><img alt="Features" src="https://img.shields.io/badge/Features-2B2545?style=for-the-badge"></a>
-  <a href="#screenshots"><img alt="Screenshots" src="https://img.shields.io/badge/Screenshots-2B2545?style=for-the-badge"></a>
   <a href="#coming-from-peace-or-hesuvi"><img alt="Migrating" src="https://img.shields.io/badge/Migrating-2B2545?style=for-the-badge"></a>
+  <a href="#screenshots"><img alt="Screenshots" src="https://img.shields.io/badge/Screenshots-2B2545?style=for-the-badge"></a>
   <a href="PRIVACY.md"><img alt="Privacy" src="https://img.shields.io/badge/Privacy-2B2545?style=for-the-badge"></a>
+  <a href="#requirements"><img alt="Requirements" src="https://img.shields.io/badge/Requirements-2B2545?style=for-the-badge"></a>
   <a href="docs/FAQ.md"><img alt="FAQ" src="https://img.shields.io/badge/FAQ-2B2545?style=for-the-badge"></a>
   <a href="CHANGELOG.md"><img alt="Changelog" src="https://img.shields.io/badge/Changelog-2B2545?style=for-the-badge"></a>
 </p>
@@ -47,7 +48,7 @@ OmniEQ is a native Windows desktop equalizer for **[Equalizer APO](https://sourc
 - **No cloud, no accounts, no telemetry.** One optional, off-by-default checkbox fetches new AutoEq curves from two named GitHub addresses; with it off OmniEQ opens no socket at all. Everything ships in the installer. [PRIVACY.md](PRIVACY.md)
 - **Built for daily use.** 1.2 MB executable, ~450 ms to a visible window, 0.03 % of one core when hidden in the tray.
 
-> **OmniEQ is donationware.** It is not sold in stores and there is no free download. Supporters on Patreon and Ko-fi get the installer and the portable build — see [Getting it](#getting-it).
+> **OmniEQ is donationware.** It is not sold in stores and there is no free download. Supporters on Patreon and Ko-fi get the installer and the portable build — see [Get OmniEQ](#get-omnieq).
 
 ---
 
@@ -124,7 +125,7 @@ Full list with details: **[docs/FEATURES.md](docs/FEATURES.md)**
 
 ---
 
-## Getting it
+## Get OmniEQ
 
 OmniEQ is **donationware**. Supporters receive both builds — the installer (`OmniEQSetup.exe`) and the portable zip — plus updates:
 
