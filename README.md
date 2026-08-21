@@ -173,23 +173,10 @@ Nothing is deleted before it has been copied and verified. Details: **[docs/MIGR
 
 ---
 
-## Support & feedback
-
-- **Bugs and feature requests:** [open an issue](https://github.com/TheOmniGrid/OmniEQ/issues) — templates are provided.
-- **Questions:** [Discussions](https://github.com/TheOmniGrid/OmniEQ/discussions).
-- **Security:** see [SECURITY.md](SECURITY.md).
-
-Support is best-effort. OmniEQ is made by one person; supporters' reports get looked at first.
-
----
-
 ## Legal
 
 - **Licence:** OmniEQ is proprietary donationware. Personal use on your own machines; no redistribution. Full terms: [LICENSE.md](LICENSE.md)
 - **Privacy:** no data leaves your computer. [PRIVACY.md](PRIVACY.md)
-- **Third-party components and credits:** Qt (LGPL v3), miniz (MIT), and the projects OmniEQ works alongside — Equalizer APO, Peace, HeSuVi, AutoEQ. [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md)
-
-*Equalizer APO, Peace and HeSuVi are independent projects by their respective authors. OmniEQ is not affiliated with or endorsed by them.*
 
 ---
 
@@ -198,11 +185,54 @@ Support is best-effort. OmniEQ is made by one person; supporters' reports get lo
 OmniEQ is one of a family of tools sharing a design language and a philosophy —
 modern, fast, no telemetry:
 
-**OmniTheme** · **OmniBlock** · **OmniCleaner** · **OmniAPO** · **OmniEQ** · **OmniPlay** · **OmniScale** · **OmniShade** · **OmniVisuals** · **OmniGPU** · **OmniVex Gaming Wrappers**
+**OmniTheme** · **OmniBlock** · **OmniCleaner** · **OmniAPO** · **OmniEQ** · **OmniPlay** · **OmniScale** · **OmniShade** · **OmniVisuals** · **OmniGPU** · **OmniWrappers**
 
-<sub>**OmniVex Gaming Wrappers** is four Direct3D compatibility installers — OmniDXVK, OmniDxWrapper, OmniVKD3D and OmniVoodoo2.</sub>
+<sub>**OmniWrappers** is four Direct3D compatibility installers — OmniDXVK, OmniDxWrapper, OmniVKD3D and OmniVoodoo2.</sub>
 
 <sub>Tuned for framerate, mixed for headroom, sharp to the pixel. Donationware
 tools for gamers and audiophiles — audio, graphics, and a bit of privacy too.</sub>
 
-<p align="center"><sub>Part of the <b>OmniVex</b> family of tools · © 2026 OmniVex</sub></p>
+More at [github.com/TheOmniGrid](https://github.com/TheOmniGrid).
+
+---
+
+## Credit
+
+**OmniEQ was written from scratch.** Peace and HeSuVi were the reference for what it should
+do; they are not where its code came from. No code from either was copied, ported or
+translated, and the filter-response maths comes from the public Audio EQ Cookbook rather
+than from Peace's source.
+
+**OmniSurround's** processing chain does reproduce the signal flow **HeSuVi** established
+for Equalizer APO, and its default mixing coefficients were taken from the configuration
+HeSuVi generates. The arrangement is HeSuVi's; the implementation is OmniEQ's, and the debt
+is gladly acknowledged.
+
+It ships **[AutoEq](https://github.com/jaakkopasanen/AutoEq)** measurement data by
+**Jaakko Pasanen** (MIT), and links Qt 6.10 (LGPL v3) and miniz (MIT). It runs on top of
+**Equalizer APO** by **Jonas Thedering** (GPL v2), which it does not include.
+
+Full attribution in [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
+
+*Equalizer APO, Peace and HeSuVi are independent projects by their respective authors.
+OmniEQ is not affiliated with or endorsed by them.*
+
+---
+
+## Contact
+
+- **Bugs and feature requests:** [open an issue](https://github.com/TheOmniGrid/OmniEQ/issues) — templates are provided.
+- **Questions:** [Discussions](https://github.com/TheOmniGrid/OmniEQ/discussions).
+- **Security:** see [SECURITY.md](SECURITY.md).
+
+Support is best-effort. OmniEQ is made by one person; supporters' reports get looked at first.
+
+**omnivex@theomnigrid.biz**
+
+---
+
+<div align="center">
+
+Copyright © 2026 OmniVex · Proprietary donationware · Equalizer APO, Peace, HeSuVi and AutoEq are the work of their respective authors; OmniEQ is not affiliated with them.
+
+</div>
