@@ -184,7 +184,7 @@ Neither the installer nor the source code is published on GitHub. This repositor
 
 ---
 
-## Legal
+### Legal and licensing
 
 - **Licence:** OmniEQ is proprietary donationware. Personal use on your own machines; no redistribution. Full terms: [LICENSE.md](LICENSE.md)
 - **Privacy:** no data leaves your computer. [PRIVACY.md](PRIVACY.md)
@@ -252,6 +252,6 @@ for repository scope and reporting guidance.
   <a href="https://github.com/TheOmniGrid">The OmniGrid on GitHub</a> ·
   <a href="https://ko-fi.com/theomnigrid">Ko-fi</a> ·
   <a href="https://www.patreon.com/TheOmniGrid">Patreon</a><br><br>
-  <sub>Copyright © 2026 OmniVex · Proprietary donationware · <a href="LICENSE.md">EULA</a></sub><br>
+  <sub>Copyright © 2026 OmniVex · Proprietary donationware · <a href="LICENSE.md">Legal &amp; licensing</a></sub><br>
   <sub>Equalizer APO, Peace, HeSuVi and AutoEq are the work of their respective authors; OmniEQ is not affiliated with them.</sub>
 </p>
