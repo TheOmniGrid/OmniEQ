@@ -59,7 +59,7 @@ OmniEQ is a native Windows desktop equalizer for **[Equalizer APO](https://sourc
 
 ## Feature overview
 
-![OmniEQ capability map covering parametric control, OmniSurround, presets and migration, and daily desktop use](assets/presentation/capabilities.png)
+![OmniEQ capability map covering parametric control, OmniSurround, presets and migration, and daily desktop use](assets/presentation/capabilities.png?v=20260823-visible-numbers-v3)
 
 <table>
 <tr>
