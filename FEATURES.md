@@ -86,7 +86,7 @@ Headphone surround virtualisation: multi-channel (or stereo, upmixed) audio is f
 | **Lite / Expert** | Lite hides the tools row, per-band type badges and the advanced panel rows. Expert shows everything. |
 | **Text scale** | 0.8× … 1.6×, live. |
 | **Theme** | Follows Windows light/dark automatically. Frameless window with the Omni design language; per-monitor DPI, including dragging between differently scaled monitors. |
-| **Languages** | English, Deutsch, Español, Français, Română — 513 strings each, verified on screen. |
+| **Languages** | English, Deutsch, Español, Français, Română, Русский, 简体中文, 日本語, 한국어 and Türkçe — complete application and installer catalogs with English fallback. |
 | **Help** | Bundled manual (PDF) one click from the title bar. |
 | **Save diagnostics…** | Writes one text file with versions, the Equalizer APO path and registration, the selected device, the generated config files and your settings — for a bug report. Nothing is sent anywhere; your account name and profile paths are replaced with placeholders. |
 
