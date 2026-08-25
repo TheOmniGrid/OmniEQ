@@ -15,10 +15,10 @@
 <!-- Suite metadata: Version · Platform · Languages · Telemetry · Distribution -->
 <p align="center">
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-8A7BFF?style=flat-square">
-  <img alt="Platform" src="https://img.shields.io/badge/platform-Windows%2010%20%2F%2011%20%C2%B7%20x64-0078D4?style=flat-square">
-  <img alt="Languages" src="https://img.shields.io/badge/languages-EN%20%C2%B7%20DE%20%C2%B7%20ES%20%C2%B7%20FR%20%C2%B7%20RO-8A7BFF?style=flat-square">
-  <img alt="Telemetry" src="https://img.shields.io/badge/telemetry-none-2EA043?style=flat-square">
-  <img alt="Distribution" src="https://img.shields.io/badge/distribution-docs%20only-99A3B1?style=flat-square">
+  <img alt="Platform" src="https://img.shields.io/badge/platform-Windows%2011%20%C2%B7%20x64-57C7FF?style=flat-square">
+  <img alt="Languages: 10" src="https://img.shields.io/badge/languages-10-8A7BFF?style=flat-square">
+  <img alt="Telemetry" src="https://img.shields.io/badge/telemetry-none-00C66D?style=flat-square">
+  <img alt="Distribution" src="https://img.shields.io/badge/distribution-docs%20only-969FAB?style=flat-square&labelColor=30363D">
 </p>
 
 <!-- Quick navigation. These are clickable: each chip jumps to a section of this
@@ -97,7 +97,7 @@ OmniEQ is a native Windows desktop equalizer for **[Equalizer APO](https://sourc
 - Tray icon with live state (active / off / engine broken), EQ on/off, global hotkeys
 - Volume and mute for the selected endpoint; set it as Windows default
 - Lite and Expert modes; UI text scale; follows Windows light/dark; per-monitor DPI
-- **Five languages**: English, Deutsch, Español, Français, Română
+- **Ten languages**: English, Deutsch, Español, Français, Română, Русский, 简体中文, 日本語, 한국어 and Türkçe
 - VST2 effects and free Equalizer APO commands per channel
 
 </td>
@@ -137,7 +137,8 @@ Nothing is deleted before it has been copied and verified. Details: **[docs/MIGR
 </table>
 
 <p align="center">
-  <img src="assets/screenshots/07-languages.png" alt="OmniEQ in German, French, Spanish and Romanian" width="920"><br>
+  <img src="assets/screenshots/07-languages.png" alt="A sample of OmniEQ localized in German, French, Spanish and Romanian" width="920"><br>
+  <sub>This collage shows four examples; the current application and installer provide ten complete languages.</sub><br>
   <sub>Deutsch · Français · Español · Română — every string translated and checked on screen, not just in the catalogue</sub>
 </p>
 

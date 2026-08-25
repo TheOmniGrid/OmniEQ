@@ -33,5 +33,7 @@ First public release.
 ### Desktop
 - Tray icon with live state, global hotkeys, endpoint volume/mute, set as default device, taskbar toggle
 - Lite/Expert modes, text scale, Windows light/dark, per-monitor DPI
-- English, Deutsch, Español, Français, Română
+- Ten complete application and installer languages: English, Deutsch, Español,
+  Français, Română, Русский, 简体中文, 日本語, 한국어 and Türkçe, with safe
+  English fallback
 - Installer (per-user, no admin) and portable zip
